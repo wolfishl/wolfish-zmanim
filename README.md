@@ -3,4 +3,4 @@ This is a program that you can use to look up the zmanim by location using
 
 
 
-![Application Image](screenshots/ZmanimApplication.JPG)
+![Application Image](screenshots/ZmanimGUI.JPG)
