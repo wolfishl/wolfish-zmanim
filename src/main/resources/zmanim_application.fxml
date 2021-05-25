@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane
+        xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" style="-fx-background-color: grey;" >
+
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25" />
+    </padding>
+
+
+    <TextField fx:id="place" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Button fx:id="search" text="Search" onAction="#onSearch" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+
+    <Label fx:id="placeLabel" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+    <Label fx:id="alosLabel" text="Alos: " GridPane.rowIndex="2" GridPane.columnIndex="0" />
+    <Label fx:id="alos" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+
+    <Label fx:id="neitzLabel" text="Neitz: " GridPane.rowIndex="3" GridPane.columnIndex="0" />
+    <Label fx:id="neitz" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+
+    <Label fx:id="sofZmanShemaLabel" text="Sof Zman Krias Shema: " GridPane.rowIndex="4" GridPane.columnIndex="0" />
+    <Label fx:id="sofZmanShema" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+
+    <Label fx:id="sofZmanTefillahLabel" text="Sof Zman Tefillah: " GridPane.rowIndex="5" GridPane.columnIndex="0" />
+    <Label fx:id="sofZmanTefillah" GridPane.rowIndex="5" GridPane.columnIndex="2"/>
+
+    <Label fx:id="chatzosLabel" text="Chatzos: " GridPane.rowIndex="6" GridPane.columnIndex="0" />
+    <Label fx:id="chatzos" GridPane.rowIndex="6" GridPane.columnIndex="2"/>
+
+    <Label fx:id="minchaGedolahLabel" text="Mincha Gedolah: " GridPane.rowIndex="7" GridPane.columnIndex="0" />
+    <Label fx:id="minchaGedolah" GridPane.rowIndex="7" GridPane.columnIndex="2"/>
+
+    <Label fx:id="plagLabel" text="Plag Hamincha: " GridPane.rowIndex="8" GridPane.columnIndex="0" />
+    <Label fx:id="plag" GridPane.rowIndex="8" GridPane.columnIndex="2"/>
+
+    <Label fx:id="shkiahLabel" text="Shkiah: " GridPane.rowIndex="9" GridPane.columnIndex="0" />
+    <Label fx:id="shkiah" GridPane.rowIndex="9" GridPane.columnIndex="2"/>
+
+    <Label fx:id="tzeisLabel" text="Tzeis: " GridPane.rowIndex="10" GridPane.columnIndex="0" />
+    <Label fx:id="tzeis" GridPane.rowIndex="10" GridPane.columnIndex="2"/>
+
+
+
+</GridPane>
